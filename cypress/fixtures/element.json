@@ -1,0 +1,20 @@
+{
+  "facilityCenterOptions": "[id='combo_facility']",
+  "datePicker": "[data-provide='datepicker']",
+  "datePickerCalendar": "[id='txt_visit_date']",
+  "username": "[id='txt-username']",
+  "password": "[id='txt-password']",
+  "loginButton": "[id='btn_login']",
+  "appointmentForm": "[id='appointment']",
+  "makeAppointmentButton": "[id='btn-make-appointment']",
+  "readmissionCheckBox": "[id='chk_hospotal_readmission']",
+  "medicareRadioLabel": "[id='radio_program_medicare']",
+  "medicaidRadioLabel": "[id='radio_program_medicaid']",
+  "noneRadioLabel": "[id='radio_program_none']",
+  "commentArea": "textarea[id='txt_comment']",
+  "menuOption": "[id='menu-toggle']",
+  "homeMenu": "[href='./']",
+  "historyMenu": "[href='history.php#history']",
+  "profileMenu": "[href='profile.php#profile']",
+  "logoutMenu": "[href='authenticate.php?logout']"
+}
