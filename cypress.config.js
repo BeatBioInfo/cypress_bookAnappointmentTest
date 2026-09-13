@@ -4,7 +4,7 @@
           reporter: 'cypress-mochawesome-reporter',
           e2e: {
               baseUrl: process.env.CYPRESS_BASE_URL,
-              watchForFileChanges: false,
+              watchForFileChanges: true,
               defaultCommandTimeout: 3000,
               viewportHeight: 800,
               viewportWidth: 1400,
@@ -15,7 +15,6 @@
                   config.baseUrl = config.env.baseURL || process.env.CYPRESS_BASE_URL || config.baseUrl 
                   return config;
               },
-              experimentalSessionAndOrigin: true,
               specPattern: [
                 'cypress/e2e/loginPageTest.cy.js',
                 'cypress/e2e/bookingPageTest.cy.js'
